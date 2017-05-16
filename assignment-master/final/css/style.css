@@ -1,0 +1,68 @@
+@import "http://getbootstrap.com/dist/css/bootstrap.css";
+/*searchbar*/
+/*vertical line*/
+body {
+  margin: 0;
+}
+.topnav {
+  overflow: hidden;
+  background: linear-gradient(45deg, #1a1e5a 0, #122d98 100%);
+  height: 88px;
+  font-family: 'Raleway', sans-serif;
+}
+.topnav li {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 19px;
+  padding-top: 31px;
+  font-family: 'Raleway', sans-serif;
+}
+.topnav li:hover {
+  background-color: linear-gradient(45deg, #1a1e5a 0, #122d98 100%);
+}
+.topnav li img {
+  margin-left: 202px;
+  margin-right: 85px;
+  height: 43px;
+}
+#visa {
+  padding-top: 19px;
+  transition: all 0.2s ease-in-out;
+}
+#visa:hover {
+  transform: scale(1.1);
+}
+#visa1 {
+  transition: all 0.2s ease-in-out;
+}
+#visa1:hover {
+  transform: scale(1.1);
+}
+.line {
+  background-color: #f8b209;
+  margin-top: 0px;
+  height: 7px;
+}
+.vertica {
+  width: 1px;
+  background-color: #f2f2af2;
+  height: 100%;
+  float: left;
+  height: 29px;
+}
+.fa-2x {
+  font-size: 1.5em;
+}
+#vis a {
+  text-decoration: none;
+}
+#hack {
+  color: white;
+}
+#hack:hover {
+  color: #f2ca13;
+}
